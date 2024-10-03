@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    background-color: #881EE4;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #F75F1C;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position: bottom;
+    background-color: #F75F1C;
+}
+
+.content_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.candy_container {
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    background-color: #FF9A00;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+.candy_container:hover {
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.candy_picture {
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
