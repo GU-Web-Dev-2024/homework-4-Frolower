@@ -1,25 +1,29 @@
 body {
+    padding: 0px;
+    margin: 0px;
     font-family: Arial;
     background-color: #881EE4;
 }
 
 header {
-    margin: 0px;
-    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     width: 100%;
-    text-align: center;
     background-color: #F75F1C;
 }
 
 footer {
-    margin: 0px;
-    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 100%;
     text-align: center;
     position: bottom;
-    background-color: #F75F1C;
+    background-color: gray;
+    color: white;
 }
 
 .content_container {
@@ -38,9 +42,11 @@ footer {
     margin: 2%;
 }
 
-.candy_container:hover {
-    background-color: black;
-    border: 1px solid gray;
+.candy_container:hover { /* EXTEA CREDIT */
+    transition: transform 1.2s linear;
+    transform: rotate(360deg);
+    background-color: #85E21F;
+    border: 1px solid #7400da;
 }
 
 .candy_picture {
